@@ -1,0 +1,19 @@
+﻿<Application x:Class="Game_Store.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:ui="http://schemas.inkore.net/lib/ui/wpf/modern"
+             xmlns:local="clr-namespace:Game_Store"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ui:ThemeResources/>
+                <ui:XamlControlsResources />
+                <ResourceDictionary Source="styles/styles.xaml"/>
+                <ResourceDictionary Source="Icons/Icons.xaml"/>
+                <ResourceDictionary Source="Styles/Style.xaml"/>
+                <ResourceDictionary Source="Icons/Light.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

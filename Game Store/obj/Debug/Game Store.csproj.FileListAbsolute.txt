@@ -1,0 +1,31 @@
+D:\360Downloads\Game Store\Game Store\Game Store\bin\Debug\Game Store.exe.config
+D:\360Downloads\Game Store\Game Store\Game Store\bin\Debug\Game Store.exe
+D:\360Downloads\Game Store\Game Store\Game Store\bin\Debug\Game Store.pdb
+D:\360Downloads\Game Store\Game Store\Game Store\bin\Debug\iNKORE.UI.WPF.dll
+D:\360Downloads\Game Store\Game Store\Game Store\bin\Debug\iNKORE.UI.WPF.Modern.Controls.dll
+D:\360Downloads\Game Store\Game Store\Game Store\bin\Debug\iNKORE.UI.WPF.Modern.dll
+D:\360Downloads\Game Store\Game Store\Game Store\bin\Debug\System.ValueTuple.dll
+D:\360Downloads\Game Store\Game Store\Game Store\bin\Debug\iNKORE.UI.WPF.Modern.pdb
+D:\360Downloads\Game Store\Game Store\Game Store\bin\Debug\iNKORE.UI.WPF.Modern.xml
+D:\360Downloads\Game Store\Game Store\Game Store\bin\Debug\iNKORE.UI.WPF.Modern.Controls.pdb
+D:\360Downloads\Game Store\Game Store\Game Store\bin\Debug\iNKORE.UI.WPF.Modern.Controls.xml
+D:\360Downloads\Game Store\Game Store\Game Store\obj\Debug\Game Store.csproj.AssemblyReference.cache
+D:\360Downloads\Game Store\Game Store\Game Store\obj\Debug\MainWindow.g.cs
+D:\360Downloads\Game Store\Game Store\Game Store\obj\Debug\App.g.cs
+D:\360Downloads\Game Store\Game Store\Game Store\obj\Debug\Game Store_MarkupCompile.cache
+D:\360Downloads\Game Store\Game Store\Game Store\obj\Debug\Game Store_MarkupCompile.lref
+D:\360Downloads\Game Store\Game Store\Game Store\obj\Debug\MainWindow.baml
+D:\360Downloads\Game Store\Game Store\Game Store\obj\Debug\Game Store.g.resources
+D:\360Downloads\Game Store\Game Store\Game Store\obj\Debug\Game_Store.Properties.Resources.resources
+D:\360Downloads\Game Store\Game Store\Game Store\obj\Debug\Game Store.csproj.GenerateResource.cache
+D:\360Downloads\Game Store\Game Store\Game Store\obj\Debug\Game Store.csproj.CoreCompileInputs.cache
+D:\360Downloads\Game Store\Game Store\Game Store\obj\Debug\Game Store.csproj.Up2Date
+D:\360Downloads\Game Store\Game Store\Game Store\obj\Debug\Game Store.exe
+D:\360Downloads\Game Store\Game Store\Game Store\obj\Debug\Game Store.pdb
+D:\360Downloads\Game Store\Game Store\Game Store\obj\Debug\App.baml
+D:\360Downloads\Game Store\Game Store\Game Store\obj\Debug\styles\styles.baml
+D:\360Downloads\Game Store\Game Store\Game Store\obj\Debug\Icons\Icons.baml
+D:\360Downloads\Game Store\Game Store\Game Store\obj\Debug\Icons\Light.baml
+D:\360Downloads\Game Store\Game Store\Game Store\obj\Debug\styles\Style.baml
+D:\360Downloads\Game Store\Game Store\Game Store\obj\Debug\UI\Page1.g.cs
+D:\360Downloads\Game Store\Game Store\Game Store\obj\Debug\UI\Page1.baml
