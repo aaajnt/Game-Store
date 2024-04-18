@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Game_Store.UI;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,6 +21,7 @@ namespace Game_Store
     /// </summary>
     public partial class MainWindow : Window
     {
+
         public MainWindow()
         {
             InitializeComponent();
@@ -27,27 +29,20 @@ namespace Game_Store
 
         private void RadioButton_Checked(object sender, RoutedEventArgs e)
         {
+            RadioButton radioButton = sender as RadioButton;
+            if (radioButton != null)
+            {
+                // 根据选中的RadioButton切换页面
+                switch (radioButton.Content.ToString())
+                {
+                    case "首页":
+                        PagesContainer.Content = new Page1();
+                        break;
 
+                }
+            }
         }
 
-        private void RadioButton_Checked_1(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void RadioButton_Checked_2(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void RadioButton_Checked_3(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void RadioButton_Checked_4(object sender, RoutedEventArgs e)
-        {
-
-        }
     }
+    public class Page1 : UserControl { /* 页面1的实现 */ }
 }

@@ -16,8 +16,8 @@
 
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="38*"/>
-            <ColumnDefinition Width="137*"/>
+            <ColumnDefinition Width="34*"/>
+            <ColumnDefinition Width="141*"/>
         </Grid.ColumnDefinitions>
         <Border BorderThickness="1" Margin="0,0,20,0">
             <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Center" Height="80" Margin="0,9,0,0" VerticalAlignment="Top" Width="80">
@@ -27,12 +27,19 @@
             </Border>
         </Border>
 
-        <RadioButton Content="首页" Height="40" Margin="10,95,0,0" VerticalAlignment="Top" Width="140" HorizontalAlignment="Left" Cursor="Hand" Style="{DynamicResource MenuRadioButtonStyles}" Tag="{DynamicResource home}" IsChecked="True" Checked="RadioButton_Checked"/>
-        <RadioButton Content="商店" Height="40" Margin="10,135,0,0" VerticalAlignment="Top" Width="140" HorizontalAlignment="Left" Cursor="Hand" Style="{DynamicResource MenuRadioButtonStyles}" Tag="{DynamicResource DownloadPageIcon}" Checked="RadioButton_Checked_1"/>
-        <RadioButton Content="帮助" Height="40" Margin="10,215,0,0" VerticalAlignment="Top" Width="140" HorizontalAlignment="Left" Cursor="Hand" IsChecked="False" Style="{DynamicResource MenuRadioButtonStyles}" Tag="{DynamicResource notes}" Checked="RadioButton_Checked_3"/>
-        <RadioButton Content="下载" Height="40" Margin="10,175,0,0" VerticalAlignment="Top" Width="140" HorizontalAlignment="Left" Cursor="Hand" IsChecked="False" Style="{DynamicResource MenuRadioButtonStyles}" Tag="{DynamicResource payment}" Checked="RadioButton_Checked_2"/>
-        <RadioButton Content="设置" Height="40" Margin="10,425,0,0" VerticalAlignment="Top" Width="140" HorizontalAlignment="Left" Cursor="Hand" IsChecked="False" Style="{DynamicResource MenuRadioButtonStyles}" Tag="{DynamicResource SettingPageIcon}" Checked="RadioButton_Checked_4"/>
-        <ContentControl Grid.Column="1" Content="ContentControl" HorizontalAlignment="Center" Height="425" Margin="0,40,0,0" VerticalAlignment="Top" Width="665"/>
+
+        <Border BorderThickness="1" Grid.Column="1">
+            <ContentControl x:Name="PagesContainer" Grid.Row="1" Margin="29,30,24,30" />
+
+        </Border>
+        <StackPanel HorizontalAlignment="Left" Height="375" Margin="0,100,0,0" VerticalAlignment="Top" Width="165">
+            <RadioButton Content="首页" Height="40" Width="140" Cursor="Hand" Style="{DynamicResource MenuRadioButtonStyles}" Tag="{DynamicResource home}" IsChecked="True" />
+            <RadioButton Content="商店" Height="40" Width="140" Cursor="Hand" Style="{DynamicResource MenuRadioButtonStyles}" Tag="{DynamicResource DownloadPageIcon}" />
+            <RadioButton Content="下载" Height="40" Width="140" Cursor="Hand" IsChecked="False" Style="{DynamicResource MenuRadioButtonStyles}" Tag="{DynamicResource payment}" />
+            <RadioButton Content="帮助" Height="40" Width="140" Cursor="Hand" IsChecked="False" Style="{DynamicResource MenuRadioButtonStyles}" Tag="{DynamicResource notes}" />
+            <RadioButton Content="设置" Height="40" Width="140" Cursor="Hand" IsChecked="False" Style="{DynamicResource MenuRadioButtonStyles}" Tag="{DynamicResource SettingPageIcon}" />
+        </StackPanel>
+        
 
     </Grid>
 </Window>

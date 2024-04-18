@@ -29,3 +29,44 @@ D:\360Downloads\Game Store\Game Store\Game Store\obj\Debug\Icons\Light.baml
 D:\360Downloads\Game Store\Game Store\Game Store\obj\Debug\styles\Style.baml
 D:\360Downloads\Game Store\Game Store\Game Store\obj\Debug\UI\Page1.g.cs
 D:\360Downloads\Game Store\Game Store\Game Store\obj\Debug\UI\Page1.baml
+C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\bin\Debug\Game Store.exe.config
+C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\bin\Debug\Game Store.exe
+C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\bin\Debug\Game Store.pdb
+C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\bin\Debug\iNKORE.UI.WPF.dll
+C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\bin\Debug\iNKORE.UI.WPF.Modern.Controls.dll
+C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\bin\Debug\iNKORE.UI.WPF.Modern.dll
+C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\bin\Debug\System.ValueTuple.dll
+C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\bin\Debug\iNKORE.UI.WPF.Modern.pdb
+C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\bin\Debug\iNKORE.UI.WPF.Modern.xml
+C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\bin\Debug\iNKORE.UI.WPF.Modern.Controls.pdb
+C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\bin\Debug\iNKORE.UI.WPF.Modern.Controls.xml
+C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\obj\Debug\Game Store.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\obj\Debug\Icons\Icons.baml
+C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\obj\Debug\Icons\Light.baml
+C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\obj\Debug\styles\Style.baml
+C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\obj\Debug\styles\styles.baml
+C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\obj\Debug\MainWindow.g.cs
+C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\obj\Debug\UI\Page1.g.cs
+C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\obj\Debug\App.g.cs
+C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\obj\Debug\Game Store_MarkupCompile.cache
+C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\obj\Debug\Game Store_MarkupCompile.lref
+C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\obj\Debug\App.baml
+C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\obj\Debug\MainWindow.baml
+C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\obj\Debug\UI\Page1.baml
+C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\obj\Debug\Game Store.g.resources
+C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\obj\Debug\Game_Store.Properties.Resources.resources
+C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\obj\Debug\Game Store.csproj.GenerateResource.cache
+C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\obj\Debug\Game Store.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\obj\Debug\Game Store.csproj.Up2Date
+C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\obj\Debug\Game Store.exe
+C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\obj\Debug\Game Store.pdb
+C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\bin\Debug\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\bin\Debug\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\bin\Debug\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\bin\Debug\Microsoft.Web.WebView2.Core.dll
+C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\bin\Debug\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\bin\Debug\Microsoft.Web.WebView2.Core.xml
+C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\obj\Debug\Game Store_Content.g.cs
