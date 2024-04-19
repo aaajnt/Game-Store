@@ -70,3 +70,9 @@ C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\bin\Debug\Microsof
 C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
 C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
 C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\obj\Debug\Game Store_Content.g.cs
+C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\obj\Debug\UI\Page2.g.cs
+C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\obj\Debug\UI\Page2.baml
+C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\obj\Debug\UI\Page3.g.cs
+C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\obj\Debug\UI\Page4.g.cs
+C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\obj\Debug\UI\Page3.baml
+C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\obj\Debug\UI\Page4.baml

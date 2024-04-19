@@ -82,6 +82,18 @@
     <Compile Include="UI\Page1.xaml.cs">
       <DependentUpon>Page1.xaml</DependentUpon>
     </Compile>
+    <Compile Include="UI\Page2.xaml.cs">
+      <DependentUpon>Page2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Page3.xaml.cs">
+      <DependentUpon>Page3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Page4.xaml.cs">
+      <DependentUpon>Page4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Page5.xaml.cs">
+      <DependentUpon>Page5.xaml</DependentUpon>
+    </Compile>
     <Page Include="Icons\Icons.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -111,6 +123,22 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="UI\Page1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\Page2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\Page3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\Page4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\Page5.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -144,6 +172,21 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Icons\png-transparent-dota-steam-logo-playerunknown-s-battlegrounds-alien-swarm-steam-computer-icons-logo-steam-miscellaneous-purple-game-thumbnail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icons\c6b40ebf238445eda4980f02d9f7ba43.png~tplv-0es2k971ck-image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icons\屏幕截图 2024-04-19 203813.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icons\屏幕截图 2024-04-19 225610.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icons\OIP.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icons\屏幕截图 2024-04-20 000759.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Web.WebView2.1.0.2420.47\build\Microsoft.Web.WebView2.targets" Condition="Exists('..\packages\Microsoft.Web.WebView2.1.0.2420.47\build\Microsoft.Web.WebView2.targets')" />

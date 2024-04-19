@@ -15,31 +15,41 @@
         Title="MainWindow" Height="490" Width="875">
 
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="34*"/>
             <ColumnDefinition Width="141*"/>
         </Grid.ColumnDefinitions>
-        <Border BorderThickness="1" Margin="0,0,20,0">
-            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Center" Height="80" Margin="0,9,0,0" VerticalAlignment="Top" Width="80">
-                <Border.Background>
-                    <ImageBrush ImageSource="/Icons/png-transparent-dota-steam-logo-playerunknown-s-battlegrounds-alien-swarm-steam-computer-icons-logo-steam-miscellaneous-purple-game-thumbnail.png"/>
-                </Border.Background>
-            </Border>
+        <Border BorderThickness="1" Grid.RowSpan="2">
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="104*"/>
+                    <RowDefinition Height="369*"/>
+                </Grid.RowDefinitions>
+                <StackPanel Margin="0,10,0,0" Grid.Row="1">
+                    <RadioButton Content="首页" GroupName="Pages" Height="40" Width="140" Cursor="Hand" Style="{DynamicResource MenuRadioButtonStyles}" Tag="{DynamicResource home}" Checked="RadioButton_Checked" ClickMode="Hover" />
+                    <RadioButton Content="商店" GroupName="Pages" Height="40" Width="140" Cursor="Hand" Style="{DynamicResource MenuRadioButtonStyles}" Tag="{DynamicResource DownloadPageIcon}" Checked="RadioButton_Checked_1" IsChecked="False" />
+                    <RadioButton Content="下载" GroupName="Pages" Height="40" Width="140" Cursor="" IsChecked="False" Style="{DynamicResource MenuRadioButtonStyles}" Tag="{DynamicResource payment}" Checked="RadioButton_Checked_2"  />
+                    <RadioButton Content="帮助" GroupName="Pages" Height="40" Width="140" Cursor="Hand" IsChecked="False" Style="{DynamicResource MenuRadioButtonStyles}" Tag="{DynamicResource notes}" Checked="RadioButton_Checked_3" />
+                    <RadioButton Content="设置" GroupName="Pages" Height="40" Width="140" Cursor="Hand" IsChecked="False" Style="{DynamicResource MenuRadioButtonStyles}" Tag="{DynamicResource SettingPageIcon}" Checked="RadioButton_Checked_4" />
+                </StackPanel>
+                <Image HorizontalAlignment="Left" Height="44" Margin="9,0,0,0" VerticalAlignment="Center" Width="140" Source="/Icons/屏幕截图 2024-04-20 000759.png"/>
+            </Grid>
         </Border>
 
 
-        <Border BorderThickness="1" Grid.Column="1">
-            <ContentControl x:Name="PagesContainer" Grid.Row="1" Margin="29,30,24,30" />
+        <Border BorderThickness="1" Grid.Column="1" Grid.RowSpan="2">
+            <Frame x:Name="PagesNavigation" NavigationUIVisibility="Hidden" Margin="21,44,-1,-1"  >
+                <!-- Page Content -->
+            </Frame>
 
         </Border>
-        <StackPanel HorizontalAlignment="Left" Height="375" Margin="0,100,0,0" VerticalAlignment="Top" Width="165">
-            <RadioButton Content="首页" Height="40" Width="140" Cursor="Hand" Style="{DynamicResource MenuRadioButtonStyles}" Tag="{DynamicResource home}" IsChecked="True" />
-            <RadioButton Content="商店" Height="40" Width="140" Cursor="Hand" Style="{DynamicResource MenuRadioButtonStyles}" Tag="{DynamicResource DownloadPageIcon}" />
-            <RadioButton Content="下载" Height="40" Width="140" Cursor="Hand" IsChecked="False" Style="{DynamicResource MenuRadioButtonStyles}" Tag="{DynamicResource payment}" />
-            <RadioButton Content="帮助" Height="40" Width="140" Cursor="Hand" IsChecked="False" Style="{DynamicResource MenuRadioButtonStyles}" Tag="{DynamicResource notes}" />
-            <RadioButton Content="设置" Height="40" Width="140" Cursor="Hand" IsChecked="False" Style="{DynamicResource MenuRadioButtonStyles}" Tag="{DynamicResource SettingPageIcon}" />
-        </StackPanel>
-        
+
 
     </Grid>
+
 </Window>
