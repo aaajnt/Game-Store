@@ -6,9 +6,13 @@
       xmlns:local="clr-namespace:Game_Store.UI"
       xmlns:Wpf="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf" x:Class="Game_Store.UI.Page2"
       mc:Ignorable="d"
-      Title="Page2" Height="475" Width="465">
-
-    <Grid Background="White" Margin="0,0,-25,-50">
-        <Grid/>
-    </Grid>
+      Title="Page2" Height="340" Width="515">
+    <StackPanel>
+        <Border BorderThickness="1" Height="105">
+            <Border BorderThickness="1" Height="85" VerticalAlignment="Top" Width="504" Margin="0,9,0,0" CornerRadius="8,8,8,8" Background="White"/>
+        </Border>
+        <Border BorderThickness="1" Height="215">
+            <Border BorderThickness="1" Height="205" Margin="0,-1,0,0" VerticalAlignment="Top" Width="505" CornerRadius="8,8,8,8" Background="White"/>
+        </Border>
+    </StackPanel>
 </Page>
