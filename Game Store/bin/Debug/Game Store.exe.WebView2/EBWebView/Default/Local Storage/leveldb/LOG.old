@@ -1,3 +1,5 @@
-2024/04/20-21:40:31.718 3da4 Reusing MANIFEST C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\bin\Debug\Game Store.exe.WebView2\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
-2024/04/20-21:40:31.721 3da4 Recovering log #104
-2024/04/20-21:40:31.722 3da4 Reusing old log C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\bin\Debug\Game Store.exe.WebView2\EBWebView\Default\Local Storage\leveldb/000104.log 
+2024/04/21-01:01:05.698 5b24 Reusing MANIFEST C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\bin\Debug\Game Store.exe.WebView2\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
+2024/04/21-01:01:05.700 5b24 Recovering log #130
+2024/04/21-01:01:05.701 5b24 Level-0 table #132: started
+2024/04/21-01:01:05.703 5b24 Level-0 table #132: 15823 bytes OK
+2024/04/21-01:01:05.705 5b24 Delete type=0 #130

@@ -4,15 +4,29 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Game_Store.UI"
-      xmlns:Wpf="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf" x:Class="Game_Store.UI.Page2"
+      xmlns:Wpf="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf" xmlns:ikw="http://schemas.inkore.net/lib/ui/wpf" xmlns:modern="http://schemas.inkore.net/lib/ui/wpf/modern" x:Class="Game_Store.UI.Page2"
       mc:Ignorable="d"
-      Title="Page2" Height="340" Width="515">
-    <StackPanel>
-        <Border BorderThickness="1" Height="105">
-            <Border BorderThickness="1" Height="85" VerticalAlignment="Top" Width="504" Margin="0,9,0,0" CornerRadius="8,8,8,8" Background="White"/>
+      Title="Page2" Height="450" Width="620">
+
+    <StackPanel Margin="0,35,0,-10">
+        <Border CornerRadius="8,8,8,8" Background="White" Height="365">
+            <ListView x:Name="GameListView" ItemsSource="{Binding Items}" >
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="编号" DisplayMemberBinding="{Binding Number}" Width="70"/>
+                        <GridViewColumn Header="游戏名" DisplayMemberBinding="{Binding Name}" Width="120"/>
+                        <GridViewColumn Header="大小" DisplayMemberBinding="{Binding Size}" Width="110"/>
+                        <GridViewColumn Header="下载链接" DisplayMemberBinding="{Binding DownloadLink}" Width="280"/>
+                    </GridView>
+                </ListView.View>
+                <ListView.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem Header="删除" Click="MenuItem_Delete_Click"/>
+                        <MenuItem Header="下载" Click="MenuItem_Edit_Click"/>
+                    </ContextMenu>
+                </ListView.ContextMenu>
+            </ListView>
         </Border>
-        <Border BorderThickness="1" Height="215">
-            <Border BorderThickness="1" Height="205" Margin="0,-1,0,0" VerticalAlignment="Top" Width="505" CornerRadius="8,8,8,8" Background="White"/>
-        </Border>
+        <modern:AutoSuggestBox x:Name="gamesListView" PlaceholderText="搜索" QueryIcon="Find" Cursor="" Height="40" Width="619" />
     </StackPanel>
 </Page>

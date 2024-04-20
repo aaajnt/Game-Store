@@ -30,7 +30,17 @@ namespace Game_Store
         public MainWindow()
         {
             InitializeComponent();
+            var suggestions = new List<string>
+    {
+        "游戏1",
+        "游戏2",
+        "游戏3",
+        // 更多游戏...
+    };
+
+            AutoSuggestBox.ItemsSource = suggestions;
         }
+
         private void btnClose_Click(object sender, RoutedEventArgs e)
         {
             Close();

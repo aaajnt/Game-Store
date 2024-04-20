@@ -12,7 +12,7 @@
         ui:WindowHelper.SystemBackdropType="Mica"
         ui:TitleBar.IsBackButtonVisible="False"
         ui:WindowHelper.UseModernWindowStyle="True"
-        Title="MainWindow" Height="540" Width="960" WindowStyle="ThreeDBorderWindow">
+        Title="MainWindow" Height="570" Width="960" WindowStyle="ThreeDBorderWindow">
 
     <Grid>
         <Grid.RowDefinitions>
@@ -98,14 +98,14 @@
             </Border.RenderTransform>
 
             <StackPanel Margin="0,45,0,0">
-                <Frame x:Name="PagesNavigation" NavigationUIVisibility="Hidden" Height="425" Navigated="PagesNavigation_Navigated" >
+                <Frame x:Name="PagesNavigation" NavigationUIVisibility="Hidden" Height="459" Navigated="PagesNavigation_Navigated" >
                     <!-- Page Content -->
                 </Frame>
             </StackPanel>
 
         </Border>
         <Image HorizontalAlignment="Left" Height="50" Margin="36,59,0,0" VerticalAlignment="Top" Width="52" Source="/Icons/OIP (1).jpg" Grid.RowSpan="2"/>
-        <Label Content="Administrator" HorizontalAlignment="Left" Height="30" Margin="91,69,0,0" VerticalAlignment="Top" Width="160" FontSize="22" Grid.RowSpan="2" Grid.ColumnSpan="2"/>
+        <Label Content="Administrator" HorizontalAlignment="Left" Height="40" Margin="91,69,0,0" VerticalAlignment="Top" Width="160" FontSize="22" Grid.RowSpan="2" Grid.ColumnSpan="2"/>
     </Grid>
 
 </Window>

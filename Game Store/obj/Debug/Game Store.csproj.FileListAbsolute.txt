@@ -101,3 +101,7 @@ C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\bin\Debug\Microsof
 C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\bin\Debug\Microsoft.Xaml.Behaviors.xml
 C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\bin\Debug\de\MahApps.Metro.resources.dll
 C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\obj\Debug\styles\Dictionary1.baml
+C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\bin\Debug\CommunityToolkit.Mvvm.dll
+C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\bin\Debug\CommunityToolkit.Mvvm.pdb
+C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\bin\Debug\CommunityToolkit.Mvvm.xml
+C:\Users\Administrator\Documents\GitHub\Game-Store\Game Store\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
