@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -24,5 +25,18 @@ namespace Game_Store.UI
         {
             InitializeComponent();
         }
+
+        private void btn5_Click(object sender, RoutedEventArgs e)
+        {
+            string url = "https://github.com/aaajnt/Game-Store";
+            Process.Start(new ProcessStartInfo(url) { UseShellExecute = true });
+        }
+
+        private void btn6_Click(object sender, RoutedEventArgs e)
+        {
+            string url = "https://www.youtube.com/channel/UCN8e_V85cThDPYb98pM2HhA";
+            Process.Start(new ProcessStartInfo(url) { UseShellExecute = true });
+        }
     }
+
 }

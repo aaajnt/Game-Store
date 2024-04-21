@@ -6,8 +6,34 @@
       xmlns:local="clr-namespace:Game_Store.UI"
       xmlns:Wpf="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf" x:Class="Game_Store.UI.Page3"
       mc:Ignorable="d"
-      Title="ProgressPage" Height="425" Width="720">
+      Title="ProgressPage" Height="385" Width="655">
     <Grid>
-        <ProgressBar x:Name="DownloadProgressBar" Minimum="0" Maximum="100" Margin="0,0,65,0" />
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="104*"/>
+            <ColumnDefinition Width="27*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="6*"/>
+        </Grid.RowDefinitions>
+        <Border BorderThickness="1" Background="White" CornerRadius="8,8,8,8" Margin="0,0,0,10" Grid.ColumnSpan="2">
+
+            <ProgressBar x:Name="DownloadProgressBar" Minimum="0" Maximum="100" Margin="25,24,139,20" RenderTransformOrigin="0.5,0.5" >
+                <ProgressBar.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="-1"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </ProgressBar.RenderTransform>
+            </ProgressBar>
+        </Border>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Row="1" Background="#FFFAFAFA" CornerRadius="8,8,8,8" Margin="0,5,0,10" Grid.RowSpan="2" Grid.ColumnSpan="2">
+            <Label Content="如果想查看下载进度请勿切换页面" HorizontalAlignment="Center" Height="35" Margin="0,9,0,0" VerticalAlignment="Top" Width="592" FontSize="18"/>
+        </Border>
+
+
     </Grid>
 </Page>

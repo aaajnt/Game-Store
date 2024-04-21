@@ -60,11 +60,6 @@ namespace Game_Store
             PagesNavigation.Navigate(new System.Uri("UI/Page1.xaml", UriKind.RelativeOrAbsolute));
         }
 
-        private void RadioButton_Checked_2(object sender, RoutedEventArgs e)
-        {
-            PagesNavigation.Navigate(new System.Uri("UI/Page3.xaml", UriKind.RelativeOrAbsolute));
-        }
-
         private void RadioButton_Checked_3(object sender, RoutedEventArgs e)
         {
             PagesNavigation.Navigate(new System.Uri("UI/Page4.xaml", UriKind.RelativeOrAbsolute));

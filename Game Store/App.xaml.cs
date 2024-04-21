@@ -14,4 +14,5 @@ namespace Game_Store
     public partial class App : Application
     {
     }
+
 }
