@@ -1,4 +1,5 @@
 ﻿using MahApps.Metro.Controls.Dialogs;
+using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -11,6 +12,7 @@ using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
+using System.Windows.Interop;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
@@ -86,108 +88,100 @@ namespace Game_Store.UI
         {
             if (GameListView.SelectedItem is Game selectedGame)
             {
-                // 显示下载链接
-                MessageBox.Show("下载链接: " + selectedGame.DownloadLink);
+                // 弹出 SaveFileDialog 以便用户选择保存路径
+                SaveFileDialog saveFileDialog = new SaveFileDialog();
+                saveFileDialog.Filter = "Executable files (*.exe)|*.exe|All files (*.*)|*.*";
+                saveFileDialog.FileName = Path.GetFileName(selectedGame.DownloadLink); // 建议的文件名
 
-                // 显示输入框让用户输入安装路径
-                installPath = ShowInstallPathDialog();
-                if (!string.IsNullOrEmpty(installPath))
+                if (saveFileDialog.ShowDialog() == true)
                 {
-                    // 调用下载方法
-                    await DownloadFileAsync(selectedGame.DownloadLink, installPath);
+                    // 创建 Page3 的实例
+                    var progressPage = new Page3();
+
+                    // 导航到 Page3
+                    NavigationService.Navigate(progressPage);
+
+                    // 开始下载并传递 Page3 实例
+                    await DownloadFileAsync(selectedGame.DownloadLink, saveFileDialog.FileName, progressPage);
                 }
             }
         }
 
-        private string ShowInstallPathDialog()
+        private async Task DownloadFileAsync(string downloadLink, string filePath, Page3 progressPage)
         {
-            // 创建一个简单的输入框对话框
-            string installPath = string.Empty;
-            var inputDialog = new InputDialog("请输入安装路径", "安装路径", "确定", "取消");
-            if (inputDialog.ShowDialog() == true)
+            try
             {
-                installPath = inputDialog.InputText;
-            }
-            return installPath;
-        }
-
-        private async Task DownloadFileAsync(string downloadLink, string installPath)
-        {
-            using (HttpClient client = new HttpClient())
-            {
-                // 发送GET请求
-                HttpResponseMessage response = await client.GetAsync(downloadLink);
-
-                // 检查响应状态
-                if (response.IsSuccessStatusCode)
+                using (HttpClient client = new HttpClient())
                 {
-                    // 获取响应内容的流
-                    Stream contentStream = await response.Content.ReadAsStreamAsync();
+                    // 发送GET请求
+                    HttpResponseMessage response = await client.GetAsync(downloadLink, HttpCompletionOption.ResponseHeadersRead);
 
-                    // 创建文件路径
-                    string fileName = Path.GetFileName(downloadLink);
-                    string filePath = Path.Combine(installPath, fileName);
-
-                    // 将流写入文件
-                    using (FileStream fileStream = new FileStream(filePath, FileMode.Create, FileAccess.Write))
+                    if (response.IsSuccessStatusCode)
                     {
-                        await contentStream.CopyToAsync(fileStream);
+                        // 确保文件路径中的目录存在
+                        var directoryPath = Path.GetDirectoryName(filePath);
+                        Directory.CreateDirectory(directoryPath);
+
+                        // 获取响应内容的流
+                        using (var contentStream = await response.Content.ReadAsStreamAsync())
+                        using (var fileStream = new FileStream(filePath, FileMode.Create, FileAccess.Write, FileShare.None))
+                        {
+                            // 读取内容至文件
+                            var totalReadBytes = 0L;
+                            var totalBytes = response.Content.Headers.ContentLength ?? 0;
+                            var buffer = new byte[8192];
+                            var isMoreToRead = true;
+
+                            do
+                            {
+                                var readBytes = await contentStream.ReadAsync(buffer, 0, buffer.Length);
+                                if (readBytes == 0)
+                                {
+                                    isMoreToRead = false;
+                                    continue;
+                                }
+
+                                await fileStream.WriteAsync(buffer, 0, readBytes);
+                                totalReadBytes += readBytes;
+
+                                // 更新下载进度
+                                var progress = (totalReadBytes * 100.0) / totalBytes;
+                                progressPage.Dispatcher.Invoke(() =>
+                                {
+                                    progressPage.UpdateDownloadProgress(progress);
+                                });
+                            }
+                            while (isMoreToRead);
+
+                            // 下载完成
+                            MessageBox.Show("下载完成");
+
+                            // 返回上一个界面
+                            if (NavigationService.CanGoBack)
+                            {
+                                NavigationService.GoBack();
+                            }
+                        }
                     }
-
-                    // 下载完成
-                    MessageBox.Show("下载完成");
-                }
-                else
-                {
-                    // 处理错误
-                    MessageBox.Show("下载失败");
-                }
-            }
-        }
-    }
-
-    public class Game
-    {
-        public string Number { get; set; }
-        public string Name { get; set; }
-        public string Size { get; set; }
-        public string DownloadLink { get; set; }
-    }
-
-    public class InputDialog : Window
-    {
-        private TextBox inputTextBox;
-
-        public InputDialog(string title, string label, string okText, string cancelText)
-        {
-            Title = title;
-            Width = 300;
-            Height = 150;
-            ResizeMode = ResizeMode.NoResize;
-            Button okButton = new Button { Content = okText, Width = 75, Margin = new Thickness(0, 10, 0, 0) };
-            Button cancelButton = new Button { Content = cancelText, Width = 75, Margin = new Thickness(0, 10, 0, 0) };
-
-            inputTextBox = new TextBox { Width = 200, Margin = new Thickness(0, 0, 0, 10) };
-
-            okButton.Click += (s, e) => DialogResult = true;
-            cancelButton.Click += (s, e) => DialogResult = false;
-
-            Content = new StackPanel
-            {
-                Children =
-                {
-                    new Label { Content = label, Margin = new Thickness(0, 10, 0, 0) },
-                    inputTextBox,
-                    new StackPanel
+                    else
                     {
-                        Orientation = Orientation.Horizontal,
-                        Children = { okButton, cancelButton }
+                        MessageBox.Show($"下载失败：{response.ReasonPhrase}", "错误", MessageBoxButton.OK, MessageBoxImage.Error);
                     }
                 }
-            };
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"下载发生错误：{ex.Message}", "错误", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
         }
-
-        public string InputText => inputTextBox.Text;
+        private void NavigateToSpecificPage()
+        {
+            Dispatcher.Invoke(() =>
+            {
+                // 导航到指定的页面，例如 'Page1'
+                NavigationService.Navigate(new Page2());
+            });
+        }
     }
 }
 

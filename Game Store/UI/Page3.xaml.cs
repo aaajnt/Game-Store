@@ -24,5 +24,14 @@ namespace Game_Store.UI
         {
             InitializeComponent();
         }
+
+        public void UpdateDownloadProgress(double progress)
+        {
+            // 确保更新操作在UI线程上执行
+            Dispatcher.Invoke(() =>
+            {
+                DownloadProgressBar.Value = progress;
+            });
+        }
     }
 }

@@ -6,6 +6,8 @@
       xmlns:local="clr-namespace:Game_Store.UI"
       xmlns:Wpf="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf" x:Class="Game_Store.UI.Page3"
       mc:Ignorable="d"
-      Title="Page3" Height="425" Width="720">
-    <Wpf:WebView2 Source="https://bilibili.com/"/>
+      Title="ProgressPage" Height="425" Width="720">
+    <Grid>
+        <ProgressBar x:Name="DownloadProgressBar" Minimum="0" Maximum="100" Margin="0,0,65,0" />
+    </Grid>
 </Page>
