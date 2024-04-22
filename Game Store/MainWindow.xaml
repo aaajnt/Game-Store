@@ -14,6 +14,7 @@
         ui:WindowHelper.UseModernWindowStyle="True"
         Title="MainWindow" Height="570" Width="960" WindowStyle="ThreeDBorderWindow">
 
+    
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="0*"/>
@@ -34,20 +35,20 @@
                     <RowDefinition Height="69*"/>
                 </Grid.RowDefinitions>
                 <StackPanel Margin="0,66,0,3" Grid.Row="2" Grid.RowSpan="2">
-                    <RadioButton Content="首页" GroupName="Pages" Height="40" Width="177" Cursor="Hand" Style="{DynamicResource MenuRadioButtonStyles}" Tag="{DynamicResource home}" Checked="RadioButton_Checked" IsChecked="False" />
+                    <RadioButton Name="ss" Content="首页" GroupName="Pages" Height="40" Width="177" Cursor="Hand" Style="{DynamicResource MenuRadioButtonStyles}" Tag="{DynamicResource home}" Checked="RadioButton_Checked" />
                     <RadioButton Content="商店" GroupName="Pages" Height="40" Width="177" Cursor="Hand" Style="{DynamicResource MenuRadioButtonStyles}" Tag="{DynamicResource DownloadPageIcon}" Checked="RadioButton_Checked_1"  />
                     <RadioButton Content="帮助" GroupName="Pages" Height="40" Width="177" Cursor="Hand" IsChecked="False" Style="{DynamicResource MenuRadioButtonStyles}" Tag="{DynamicResource notes}" Checked="RadioButton_Checked_3" />
                     <RadioButton Content="设置" GroupName="Pages" Height="40" Width="177" Cursor="Hand" IsChecked="False" Style="{DynamicResource MenuRadioButtonStyles}" Tag="{DynamicResource SettingPageIcon}" Checked="RadioButton_Checked_4" />
                     <Label Content="  " Height="48" Width="224"/>
                 </StackPanel>
                 <ui:AutoSuggestBox x:Name="AutoSuggestBox" PlaceholderText="搜索" Margin="10,0,10,0" Grid.Row="2" VerticalAlignment="Center" QueryIcon="Find" Cursor="" Height="32"/>
-                <Label Content="Game Store" HorizontalAlignment="Left" Height="24" Margin="64,15,0,0" VerticalAlignment="Top" Width="95"/>
+                <Label Content="Game Store" HorizontalAlignment="Left" Height="42" Margin="34,0,0,0" VerticalAlignment="Center" Width="155" FontSize="36" Foreground="#FF1372F4" FontFamily="STXingkai"/>
 
             </Grid>
         </Border>
 
 
-        <Border BorderThickness="1" Grid.RowSpan="2" RenderTransformOrigin="0.5,0.5" Margin="1,50,0,0" Grid.Column="1">
+        <Border BorderThickness="1" Grid.RowSpan="2" RenderTransformOrigin="0.5,0.5" Margin="1,55,0,0" Grid.Column="1">
             <Border.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -57,8 +58,8 @@
                 </TransformGroup>
             </Border.RenderTransform>
 
-            <StackPanel Margin="0,45,0,0">
-                <Frame x:Name="PagesNavigation" NavigationUIVisibility="Hidden" Height="459" Navigated="PagesNavigation_Navigated" >
+            <StackPanel Margin="0,20,0,0">
+                <Frame x:Name="PagesNavigation" NavigationUIVisibility="Hidden" Height="480" Navigated="PagesNavigation_Navigated" >
                     <!-- Page Content -->
                 </Frame>
             </StackPanel>

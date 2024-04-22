@@ -8,6 +8,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web.UI.WebControls;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -30,6 +31,7 @@ namespace Game_Store
         public MainWindow()
         {
             InitializeComponent();
+            Loaded += MainWindow_Loaded;
             var suggestions = new List<string>
     {
         "游戏1",
@@ -39,6 +41,10 @@ namespace Game_Store
     };
 
             AutoSuggestBox.ItemsSource = suggestions;
+        }
+        private void MainWindow_Loaded(object sender, RoutedEventArgs e)
+        {
+            ss.IsChecked = true;
         }
 
         private void btnClose_Click(object sender, RoutedEventArgs e)

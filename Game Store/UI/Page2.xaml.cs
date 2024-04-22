@@ -155,12 +155,6 @@ namespace Game_Store.UI
 
                             // 下载完成
                             MessageBox.Show("下载完成");
-
-                            // 返回上一个界面
-                            if (NavigationService.CanGoBack)
-                            {
-                                NavigationService.GoBack();
-                            }
                         }
                     }
                     else

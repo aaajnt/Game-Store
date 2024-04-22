@@ -6,9 +6,9 @@
       xmlns:local="clr-namespace:Game_Store.UI"
       xmlns:Wpf="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf" xmlns:ikw="http://schemas.inkore.net/lib/ui/wpf" xmlns:modern="http://schemas.inkore.net/lib/ui/wpf/modern" x:Class="Game_Store.UI.Page2"
       mc:Ignorable="d"
-      Title="Page2" Height="450" Width="620">
-
-    <StackPanel Margin="0,35,0,-10">
+      Title="Page2" Height="495" Width="620">
+    <StackPanel Margin="0,35,0,10">
+        <Label Content="   下载" Height="35" Width="620" FontSize="18"/>
         <Border CornerRadius="8,8,8,8" Background="White" Height="365">
             <ListView x:Name="GameListView" ItemsSource="{Binding Items}" >
                 <ListView.View>
@@ -27,6 +27,7 @@
                 </ListView.ContextMenu>
             </ListView>
         </Border>
-        <modern:AutoSuggestBox x:Name="gamesListView" PlaceholderText="搜索" QueryIcon="Find" Cursor="" Height="40" Width="619" />
+        <modern:AutoSuggestBox x:Name="gamesListView" PlaceholderText="搜索" QueryIcon="Find" Cursor="" Height="40" Width="620" />
+
     </StackPanel>
 </Page>

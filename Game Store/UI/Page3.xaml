@@ -33,7 +33,7 @@
         <Border BorderBrush="Black" BorderThickness="1" Grid.Row="1" Background="#FFFAFAFA" CornerRadius="8,8,8,8" Margin="0,5,0,10" Grid.RowSpan="2" Grid.ColumnSpan="2">
             <Label Content="如果想查看下载进度请勿切换页面" HorizontalAlignment="Center" Height="35" Margin="0,9,0,0" VerticalAlignment="Top" Width="592" FontSize="18"/>
         </Border>
-
-
+        <TextBlock x:Name="DownloadSpeedText" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,30,0,0" Width="114" Grid.Column="1" Height="40"/>
+        <Label Content="0      10     20      30     40    50     60     70     80      90   100   %" HorizontalAlignment="Left" Height="35" Margin="32,60,0,0" VerticalAlignment="Top" Width="592" FontSize="18" Grid.ColumnSpan="2"/>
     </Grid>
 </Page>

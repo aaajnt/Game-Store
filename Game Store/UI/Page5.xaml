@@ -10,8 +10,10 @@
 
     <Grid>
         <ScrollViewer Grid.Column="1" Padding="24" VerticalScrollBarVisibility="Auto">
+            
             <StackPanel Height="710">
-                <Grid Height="191">
+                <Label Content="设置" FontSize="20" Height="41"/>
+                <Grid Height="141">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="121*"/>
                         <ColumnDefinition Width="120*"/>
@@ -22,13 +24,13 @@
                         <RowDefinition Height="56*"/>
                         <RowDefinition Height="135*"/>
                     </Grid.RowDefinitions>
-                    <Border BorderThickness="1" Background="White" CornerRadius="8,8,8,8" Grid.RowSpan="2" Grid.ColumnSpan="4">
+                    <Border BorderThickness="1" Background="White" CornerRadius="8,8,8,8" Grid.RowSpan="2" Grid.ColumnSpan="4" Margin="0,0,0,-10">
 
                     </Border>
-                    <Label Content="   github                    youtube                        官网" HorizontalAlignment="Left" Height="24" Margin="0,40,0,0" VerticalAlignment="Top" Width="496" Grid.ColumnSpan="4" Grid.Row="1"/>
-                    <Button Content="检查更新" HorizontalAlignment="Center" Height="36" VerticalAlignment="Center" Width="101" Grid.Column="1"/>
-                    <Button Content="检查终端" HorizontalAlignment="Center" Height="36" VerticalAlignment="Center" Width="100"/>
-                    <Grid Grid.Row="1" Grid.ColumnSpan="3" Margin="0,50,20,0">
+                    <Label Content="   github                    youtube                        官网                         爱发电" HorizontalAlignment="Left" Height="47" Margin="0,17,0,0" VerticalAlignment="Top" Width="496" Grid.ColumnSpan="4" Grid.Row="1"/>
+                    <Button Content="检查更新" HorizontalAlignment="Center" Height="36" VerticalAlignment="Top" Width="101" Grid.Column="1" Margin="0,19,0,0" Grid.RowSpan="2"/>
+                    <Button Content="检查终端" HorizontalAlignment="Center" Height="36" VerticalAlignment="Top" Width="100" Margin="0,19,0,0" Grid.RowSpan="2"/>
+                    <Grid Grid.Row="1" Grid.ColumnSpan="3" Margin="0,33,20,0">
                         <Grid.RowDefinitions>
                             <RowDefinition Height="0*"/>
                             <RowDefinition/>
@@ -69,18 +71,30 @@
                             </Button.RenderTransform>
                             <Image Source="/Icons/c6b40ebf238445eda4980f02d9f7ba43.png~tplv-0es2k971ck-image.png" Width="53" Height="61"/>
                         </Button>
+                        <Button x:Name="btn7复制__C_" Click="btn7复制__C__Click" Margin="3,1,-139,-3" Background="{x:Null}" Foreground="{x:Null}" BorderBrush="{x:Null}" Grid.Column="4" RenderTransformOrigin="0.5,0.5" Grid.RowSpan="2">
+                            <Button.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform/>
+                                    <SkewTransform/>
+                                    <RotateTransform Angle="-0.154"/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </Button.RenderTransform>
+                            <Image Source="/Icons/0e73be42d9ba2dd372cbaac11a0e6744.jpg" Width="53" Height="61"/>
+                        </Button>
                     </Grid>
                 </Grid>
-                <Grid Height="120">
+                <Grid Height="135">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="13*"/>
                         <RowDefinition Height="16*"/>
                     </Grid.RowDefinitions>
-                    <Border BorderThickness="1" Background="White" CornerRadius="8,8,8,8" Margin="0,10,0,10" Grid.RowSpan="2">
-                        <Slider HorizontalAlignment="Left" Height="25" Margin="15,59,0,0" VerticalAlignment="Top" Width="545"/>
+                    <Border BorderThickness="1" Background="White" CornerRadius="8,8,8,8" Margin="0,20,0,0" Grid.RowSpan="2">
+                        <Slider HorizontalAlignment="Left" Height="25" Margin="15,59,0,0" VerticalAlignment="Top" Width="545" />
                     </Border>
                     <Label Content="下载限速 0值为默认/不限速" HorizontalAlignment="Left" Height="25" Margin="10,35,0,0" VerticalAlignment="Top" Width="283" Grid.RowSpan="2"/>
                 </Grid>
+
 
 
 

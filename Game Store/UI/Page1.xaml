@@ -6,6 +6,8 @@
       xmlns:local="clr-namespace:Game_Store.UI"
       xmlns:Wpf="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf" x:Class="Game_Store.UI.Page1"
       mc:Ignorable="d"
-      Title="Page1" Width="610" Height="500">
-    <StackPanel/>
+      Title="Page1" Width="610" Height="375">
+    <StackPanel Margin="0,0,0,40">
+        <Border BorderThickness="1" Height="255" Width="610" Background="White" CornerRadius="8,8,8,8"/>
+    </StackPanel>
 </Page>

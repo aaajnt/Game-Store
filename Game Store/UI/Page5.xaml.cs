@@ -37,6 +37,13 @@ namespace Game_Store.UI
             string url = "https://www.youtube.com/channel/UCN8e_V85cThDPYb98pM2HhA";
             Process.Start(new ProcessStartInfo(url) { UseShellExecute = true });
         }
+
+        private void btn7复制__C__Click(object sender, RoutedEventArgs e)
+        {
+            string url = "https://afdian.net/a/anmingyun";
+            Process.Start(new ProcessStartInfo(url) { UseShellExecute = true });
+        }
+
     }
 
 }
