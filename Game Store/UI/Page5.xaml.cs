@@ -44,6 +44,10 @@ namespace Game_Store.UI
             Process.Start(new ProcessStartInfo(url) { UseShellExecute = true });
         }
 
+        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 
 }

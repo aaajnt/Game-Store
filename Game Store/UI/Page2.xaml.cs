@@ -90,7 +90,7 @@ namespace Game_Store.UI
             {
                 // 弹出 SaveFileDialog 以便用户选择保存路径
                 SaveFileDialog saveFileDialog = new SaveFileDialog();
-                saveFileDialog.Filter = "Executable files (*.exe)|*.exe|All files (*.*)|*.*";
+                saveFileDialog.Filter = "Executable All files (*.*)|*.*";
                 saveFileDialog.FileName = Path.GetFileName(selectedGame.DownloadLink); // 建议的文件名
 
                 if (saveFileDialog.ShowDialog() == true)
@@ -168,14 +168,7 @@ namespace Game_Store.UI
                 MessageBox.Show($"下载发生错误：{ex.Message}", "错误", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
-        private void NavigateToSpecificPage()
-        {
-            Dispatcher.Invoke(() =>
-            {
-                // 导航到指定的页面，例如 'Page1'
-                NavigationService.Navigate(new Page2());
-            });
-        }
+
     }
 }
 

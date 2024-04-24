@@ -9,9 +9,9 @@
       Title="Page5" Height="385" Width="650">
 
     <Grid>
-        <ScrollViewer Grid.Column="1" Padding="24" VerticalScrollBarVisibility="Auto">
-            
-            <StackPanel Height="710">
+        <ScrollViewer Padding="24" VerticalScrollBarVisibility="Auto" Margin="0,0,0,-275">
+
+            <StackPanel Height="665">
                 <Label Content="设置" FontSize="20" Height="41"/>
                 <Grid Height="141">
                     <Grid.ColumnDefinitions>
@@ -84,14 +84,15 @@
                         </Button>
                     </Grid>
                 </Grid>
-                <Grid Height="135">
+                <Grid Height="294">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="13*"/>
                         <RowDefinition Height="16*"/>
                     </Grid.RowDefinitions>
-                    <Border BorderThickness="1" Background="White" CornerRadius="8,8,8,8" Margin="0,20,0,0" Grid.RowSpan="2">
+                    <Border BorderThickness="1" Background="White" CornerRadius="8,8,8,8" Margin="0,20,0,10" Grid.RowSpan="2">
                         <Slider HorizontalAlignment="Left" Height="25" Margin="15,59,0,0" VerticalAlignment="Top" Width="545" />
                     </Border>
+                    <ComboBox HorizontalAlignment="Left" Height="35" Margin="40,315,0,0" VerticalAlignment="Top" Width="205"/>
                     <Label Content="下载限速 0值为默认/不限速" HorizontalAlignment="Left" Height="25" Margin="10,35,0,0" VerticalAlignment="Top" Width="283" Grid.RowSpan="2"/>
                 </Grid>
 
@@ -101,5 +102,6 @@
                 <!-- 根据需要添加更多设置项 -->
             </StackPanel>
         </ScrollViewer>
+        <ComboBox HorizontalAlignment="Left" Height="35" Margin="45,350,0,0" VerticalAlignment="Top" Width="250" SelectionChanged="ComboBox_SelectionChanged"/>
     </Grid>
 </Page>

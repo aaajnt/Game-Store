@@ -29,11 +29,13 @@
                     </TransformGroup>
                 </ProgressBar.RenderTransform>
             </ProgressBar>
+
         </Border>
         <Border BorderBrush="Black" BorderThickness="1" Grid.Row="1" Background="#FFFAFAFA" CornerRadius="8,8,8,8" Margin="0,5,0,10" Grid.RowSpan="2" Grid.ColumnSpan="2">
-            <Label Content="如果想查看下载进度请勿切换页面" HorizontalAlignment="Center" Height="35" Margin="0,9,0,0" VerticalAlignment="Top" Width="592" FontSize="18"/>
+            <Button x:Name="CancelButton复制__C_" Content="下载完返回" Click="CancelButton复制__C__Click" Margin="19,9,494,199"/>
         </Border>
-        <TextBlock x:Name="DownloadSpeedText" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,30,0,0" Width="114" Grid.Column="1" Height="40"/>
-        <Label Content="0      10     20      30     40    50     60     70     80      90   100   %" HorizontalAlignment="Left" Height="35" Margin="32,60,0,0" VerticalAlignment="Top" Width="592" FontSize="18" Grid.ColumnSpan="2"/>
+        <TextBlock Name="ProgressTextBlock" HorizontalAlignment="Center" Margin="0,35,0,33" Width="105" Grid.Column="1" />
+        <Button x:Name="CancelButton" Content="取消下载" Click="CancelButton_Click" Margin="165,17,220,0" Grid.Row="1"/>
+        <RichTextBox x:Name="OutputTextBox" Grid.Row="2" IsReadOnly="True" VerticalScrollBarVisibility="Auto" Grid.ColumnSpan="2" Margin="20,10,15,25"/>
     </Grid>
 </Page>
