@@ -14,8 +14,7 @@
         ui:WindowHelper.UseModernWindowStyle="True"
         Title="MainWindow" Height="570" Width="960" WindowStyle="ThreeDBorderWindow">
 
-    
-    <Grid>
+    <Grid x:Name="mainGrid">
         <Grid.RowDefinitions>
             <RowDefinition Height="0*"/>
             <RowDefinition/>
@@ -43,6 +42,8 @@
                 </StackPanel>
                 <ui:AutoSuggestBox x:Name="AutoSuggestBox" PlaceholderText="搜索" Margin="10,0,10,0" Grid.Row="2" VerticalAlignment="Center" QueryIcon="Find" Cursor="" Height="32"/>
                 <Label Content="Game Store" HorizontalAlignment="Left" Height="42" Margin="34,0,0,0" VerticalAlignment="Center" Width="155" FontSize="36" Foreground="#FF1372F4" FontFamily="STXingkai"/>
+                <Label Content="ff2515698@gamail.com" HorizontalAlignment="Left" Height="42" Margin="89,47,0,0" VerticalAlignment="Top" Width="155" FontSize="11" Foreground="#FF030303" FontFamily="Arial" Grid.Row="1" Grid.RowSpan="2"/>
+
 
             </Grid>
         </Border>
@@ -67,6 +68,7 @@
         </Border>
         <Image HorizontalAlignment="Left" Height="50" Margin="36,59,0,0" VerticalAlignment="Top" Width="52" Source="/Icons/OIP (1).jpg" Grid.RowSpan="2"/>
         <Label Content="Administrator" HorizontalAlignment="Left" Height="40" Margin="91,69,0,0" VerticalAlignment="Top" Width="160" FontSize="22" Grid.RowSpan="2" Grid.ColumnSpan="2"/>
+
     </Grid>
 
 </Window>

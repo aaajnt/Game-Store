@@ -46,7 +46,7 @@ namespace Game_Store.UI
         {
             new Game { Number = 1, Name = "游戏1", Size = "1GB", DownloadLink = "https://download.berrygm.com/static4/20240417/Steamberry_42_2.exe" },
             new Game { Number = 2, Name = "游戏1", Size = "1GB", DownloadLink = "https://pic.616pic.com/ys_bnew_img/00/39/23/GCfdbdGW2K.jpg" },
-            new Game { Number = 3, Name = "游戏1", Size = "1GB", DownloadLink = "http://example.com/game1" },
+            new Game { Number = 3, Name = "游戏1", Size = "1GB", DownloadLink = "https://codeload.github.com/DaiYu-233/YMCL/zip/refs/tags/AutoRelease-2024-04-20.11-46-47" },
             new Game { Number = 4, Name = "游戏1", Size = "1GB", DownloadLink = "http://example.com/game1" },
             new Game { Number = 5, Name = "游戏1", Size = "1GB", DownloadLink = "http://example.com/game1" },
             new Game { Number = 6, Name = "游戏1", Size = "1GB", DownloadLink = "http://example.com/game1" },

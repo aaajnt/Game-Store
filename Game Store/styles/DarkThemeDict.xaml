@@ -1,0 +1,20 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- 深色主题资源 -->
+    <SolidColorBrush x:Key="WindowBackground" Color="#FF2D2D30"/>
+    <SolidColorBrush x:Key="ControlForeground" Color="WhiteSmoke"/>
+    <SolidColorBrush x:Key="ControlBackground" Color="#FF3E3E42"/>
+    <SolidColorBrush x:Key="ControlMouseOverBackground" Color="#FF45464B"/>
+
+    <!-- 定义其他资源... -->
+    <Style x:Key="DefaultStyle" TargetType="Button">
+        <Setter Property="Background" Value="Gray"/>
+    </Style>
+
+    <!-- 纯色背景样式 -->
+    <Style x:Key="ColoredBackgroundStyle" TargetType="Button">
+        <Setter Property="Background" Value="LightBlue"/>
+    </Style>
+
+</ResourceDictionary>

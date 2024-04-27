@@ -32,6 +32,9 @@ namespace Game_Store
         {
             InitializeComponent();
             Loaded += MainWindow_Loaded;
+            App.BackgroundChanged += OnBackgroundChanged;
+            this.Unloaded += MainWindow_Unloaded;
+
             var suggestions = new List<string>
     {
         "游戏1",
@@ -122,6 +125,38 @@ namespace Game_Store
         {
             string url = "https://www.youtube.com/channel/UCN8e_V85cThDPYb98pM2HhA";
             Process.Start(new ProcessStartInfo(url) { UseShellExecute = true });
+        }
+        private void OnBackgroundChanged(object sender, BackgroundChangedEventArgs e)
+        {
+            if (!string.IsNullOrEmpty(e.ImagePath))
+            {
+                ImageBrush imageBrush = new ImageBrush
+                {
+                    ImageSource = new BitmapImage(new Uri(e.ImagePath, UriKind.Absolute))
+                };
+                mainGrid.Background = imageBrush;
+            }
+            else if (e.Color.HasValue)
+            {
+                mainGrid.Background = new SolidColorBrush(e.Color.Value);
+            }
+            else
+            {
+                // 如果没有提供颜色或图片路径，则恢复默认样式
+                RestoreDefaultBackground();
+            }
+        }
+
+        private void MainWindow_Unloaded(object sender, RoutedEventArgs e)
+        {
+            App.BackgroundChanged -= OnBackgroundChanged;
+            this.Unloaded -= MainWindow_Unloaded;
+        }
+
+        private void RestoreDefaultBackground()
+        {
+            // 设置默认的背景样式
+            mainGrid.Background = new SolidColorBrush(Colors.Transparent); // 假设默认的背景颜色是白色
         }
     }
 }

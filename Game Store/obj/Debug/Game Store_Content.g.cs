@@ -9,7 +9,6 @@
 //------------------------------------------------------------------------------
 
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("icons/0840098431516e56f60368a77bbd8555_512_512.jpg")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("icons/scott%20lloyd%20shelly%20-%20the%20hallow.mp3")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("webview2loader.dll")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("webview2loader.dll")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("webview2loader.dll")]

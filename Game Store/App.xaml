@@ -14,6 +14,9 @@
                 <ResourceDictionary Source="Styles/Style.xaml"/>
                 <ResourceDictionary Source="Icons/Light.xaml"/>
                 <ResourceDictionary Source="styles/Dictionary1.xaml"/>
+                <ResourceDictionary Source="styles/style3.xaml"/>
+                <ResourceDictionary Source="styles/LightThemeDict.xaml"/>
+                <ResourceDictionary Source="styles/DarkThemeDict.xaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>

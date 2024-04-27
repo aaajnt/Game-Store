@@ -4,14 +4,15 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Game_Store.UI"
+      xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
       xmlns:ikw="http://schemas.inkore.net/lib/ui/wpf" x:Class="Game_Store.UI.Page5"
       mc:Ignorable="d"
-      Title="Page5" Height="385" Width="650">
+      Title="Page5" Height="825" Width="650">
 
     <Grid>
-        <ScrollViewer Padding="24" VerticalScrollBarVisibility="Auto" Margin="0,0,0,-275">
+        <ScrollViewer Padding="24" VerticalScrollBarVisibility="Auto">
 
-            <StackPanel Height="665">
+            <StackPanel Height="1306">
                 <Label Content="设置" FontSize="20" Height="41"/>
                 <Grid Height="141">
                     <Grid.ColumnDefinitions>
@@ -84,7 +85,7 @@
                         </Button>
                     </Grid>
                 </Grid>
-                <Grid Height="294">
+                <Grid Height="228">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="13*"/>
                         <RowDefinition Height="16*"/>
@@ -95,6 +96,27 @@
                     <ComboBox HorizontalAlignment="Left" Height="35" Margin="40,315,0,0" VerticalAlignment="Top" Width="205"/>
                     <Label Content="下载限速 0值为默认/不限速" HorizontalAlignment="Left" Height="25" Margin="10,35,0,0" VerticalAlignment="Top" Width="283" Grid.RowSpan="2"/>
                 </Grid>
+                <Grid Height="356">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="341*"/>
+                        <RowDefinition Height="10*"/>
+                        <RowDefinition Height="5*"/>
+                    </Grid.RowDefinitions>
+                    <Border BorderThickness="1" Grid.RowSpan="2" Background="White" CornerRadius="8,8,8,8" Margin="0,10,0,5">
+
+                    </Border>
+                    <CheckBox x:Name="autoUnzipCheckBox" Content="自动解压下载文件" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked"  Margin="26,-94,399,395"/>
+                    <ComboBox x:Name="backgroundTypeComboBox" SelectionChanged="BackgroundTypeSelectionChanged" Margin="10,76,144,231">
+                        <ComboBoxItem Content="Red Background"/>
+                        <ComboBoxItem Content="Blue Background"/>
+                        <ComboBoxItem Content="Green Background"/>
+                        <ComboBoxItem Content="Custom Image..."/>
+                        <ComboBoxItem Content="Follow System Theme"/>
+                        <ComboBoxItem Content="Restore Default Style"/>
+                    </ComboBox>
+                    <Label Content="背景设置" HorizontalAlignment="Left" Height="36" Margin="10,35,0,0" VerticalAlignment="Top" Width="283" FontSize="20"/>
+                    
+                </Grid>
 
 
 
@@ -102,6 +124,5 @@
                 <!-- 根据需要添加更多设置项 -->
             </StackPanel>
         </ScrollViewer>
-        <ComboBox HorizontalAlignment="Left" Height="35" Margin="45,350,0,0" VerticalAlignment="Top" Width="250" SelectionChanged="ComboBox_SelectionChanged"/>
     </Grid>
 </Page>

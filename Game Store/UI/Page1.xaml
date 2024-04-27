@@ -4,10 +4,46 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Game_Store.UI"
-      xmlns:Wpf="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf" x:Class="Game_Store.UI.Page1"
+      xmlns:Wpf="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf" xmlns:ikw="http://schemas.inkore.net/lib/ui/wpf" x:Class="Game_Store.UI.Page1"
       mc:Ignorable="d"
-      Title="Page1" Width="610" Height="375">
-    <StackPanel Margin="0,0,0,40">
-        <Border BorderThickness="1" Height="255" Width="610" Background="White" CornerRadius="8,8,8,8"/>
-    </StackPanel>
+      Title="Page1" Width="610" Height="400">
+    <ScrollViewer Padding="24" VerticalScrollBarVisibility="Auto" Margin="0,0,0,10">
+
+        <StackPanel Height="1285">
+            <Label Content="首页" Height="50" Width="542" FontSize="22"/>
+            <Border BorderThickness="1" Background="White" CornerRadius="8,8,8,8" Height="286">
+                <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Disabled" Margin="0,40,0,34" Width="523">
+                    <ItemsControl Height="155">
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <StackPanel Orientation="Horizontal"/>
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+                        <Image Height="160" Width="280" Source="/Icons/QQ截图20240427122301.png"/>
+                        <Image Height="152" Width="346" Source="/Icons/QQ截图20240427122904.png"/>
+                        <Image Height="156" Width="235"/>
+
+
+                        <!-- Add your items here -->
+
+                    </ItemsControl>
+                </ScrollViewer>
+            </Border>
+            <Grid Height="745">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="16*"/>
+                    <RowDefinition Height="133*"/>
+                </Grid.RowDefinitions>
+                <Label Content="            ——————最新公告——————" HorizontalAlignment="Center" VerticalAlignment="Center" Width="545" Height="34" FontSize="22" Foreground="#FF046EFF"/>
+                <Label Content="重大更新版本" HorizontalAlignment="Left" VerticalAlignment="Top" Width="545" Height="34" FontSize="22" Margin="16,-270,0,0"/>
+
+                <Border BorderThickness="1" Grid.Row="1" Background="White" CornerRadius="8,8,8,8" Margin="0,0,0,-70">
+                    <FlowDocumentScrollViewer Name="markdownViewer" Background="White" Grid.Row="1" Margin="-1,0,1,124" />
+                </Border>
+
+            </Grid>
+
+
+        </StackPanel>
+    </ScrollViewer>
 </Page>

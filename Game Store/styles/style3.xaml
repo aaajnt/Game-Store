@@ -1,0 +1,40 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Style x:Key="CustomExpanderStyle" TargetType="Expander">
+        <!-- Style setters... -->
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Expander">
+                    <Border CornerRadius="5"
+                            BorderBrush="{TemplateBinding BorderBrush}"
+                            BorderThickness="{TemplateBinding BorderThickness}"
+                            Background="{TemplateBinding Background}">
+                        <DockPanel>
+                            <ToggleButton x:Name="ExpanderToggle"
+                                          DockPanel.Dock="Top"
+                                          Margin="0"
+                                          Padding="5"
+                                          Background="Transparent"
+                                          Foreground="{TemplateBinding Foreground}"
+                                          Content="{TemplateBinding Header}"
+                                          IsChecked="{Binding Path=IsExpanded, Mode=TwoWay, RelativeSource={RelativeSource TemplatedParent}}">
+                                <!-- ToggleButton template... -->
+                            </ToggleButton>
+                            <ContentPresenter x:Name="ExpanderContent"
+                                              DockPanel.Dock="Top"
+                                              Margin="{TemplateBinding Padding}"
+                                              Visibility="Collapsed"/>
+                        </DockPanel>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsExpanded" Value="True">
+                            <Setter TargetName="ExpanderContent" Property="Visibility" Value="Visible"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+</ResourceDictionary>

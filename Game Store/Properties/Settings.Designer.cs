@@ -26,5 +26,7 @@ namespace Game_Store.Properties
                 return defaultInstance;
             }
         }
+
+        public bool? IsCheckBoxChecked { get; internal set; }
     }
 }
