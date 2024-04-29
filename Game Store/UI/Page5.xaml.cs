@@ -40,6 +40,7 @@ namespace Game_Store.UI
         public Page5()
         {
             InitializeComponent();
+            this.Loaded += Page_Loaded;
         }
 
 
@@ -113,7 +114,8 @@ namespace Game_Store.UI
         }
         private void BackgroundTypeSelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            ComboBox comboBox = (ComboBox)sender;
+            string savedSelection = Properties.Settings.Default.ComboBoxSelection;
+            ComboBox comboBox = sender as ComboBox;
             ComboBoxItem selectedItem = (ComboBoxItem)comboBox.SelectedItem;
 
             switch (selectedItem.Content.ToString())
@@ -136,7 +138,10 @@ namespace Game_Store.UI
                 case "Follow System Theme":
                     CheckSystemThemeAndRaiseEvent();
                     break;
+
             }
+            if (comboBox == null) return;
+            if (selectedItem == null) return;
         }
 
         private void CheckSystemThemeAndRaiseEvent()
@@ -175,6 +180,39 @@ namespace Game_Store.UI
             App.RaiseBackgroundChanged(Colors.Transparent, null);
         }
 
+        private void Page_Loaded(object sender, RoutedEventArgs e)
+        {
+            RestoreComboBoxSelection();
+        }
+        private void RestoreComboBoxSelection()
+        {
+            string savedSelection = Properties.Settings.Default.ComboBoxSelection;
+            if (!string.IsNullOrEmpty(savedSelection))
+            {
+                foreach (ComboBoxItem item in backgroundTypeComboBox.Items)
+                {
+                    if (item.Content.ToString() == savedSelection)
+                    {
+                        backgroundTypeComboBox.SelectedItem = item;
+                        break;
+                    }
+                }
+            }
+            // 确保ComboBox已经加载了Items
+            if (backgroundTypeComboBox == null || backgroundTypeComboBox.Items == null) return;
+            if (!string.IsNullOrEmpty(savedSelection))
+            {
+                foreach (ComboBoxItem item in backgroundTypeComboBox.Items)
+                {
+                    if (item != null && item.Content.ToString() == savedSelection)
+                    {
+                        backgroundTypeComboBox.SelectedItem = item;
+                        return; // 找到匹配项，完成方法
+                    }
+                }
+            }
 
+            backgroundTypeComboBox.SelectedIndex = -1; // 如果没有匹配项，确保没有选项被选中
+        }
     }
 }

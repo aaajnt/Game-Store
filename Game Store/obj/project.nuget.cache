@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "aSc3yy1122hQexqFec5PYe0wRCNGCx+xIZOynLs32/WGuwW2SGD6xbZb+rNxjZldcVhBRNPm5dEfircKwNY2Kw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\Game Store.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.vcrtforwarders.140\\1.0.6\\microsoft.vcrtforwarders.140.1.0.6.nupkg.sha512"
+  ],
+  "logs": []
+}
