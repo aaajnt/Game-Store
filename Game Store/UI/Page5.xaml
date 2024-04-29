@@ -7,7 +7,7 @@
       xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
       xmlns:ikw="http://schemas.inkore.net/lib/ui/wpf" x:Class="Game_Store.UI.Page5"
       mc:Ignorable="d"
-      Title="Page5" Height="825" Width="650" Loaded="Page_Loaded">
+      Title="Page5" Height="415" Width="650" Loaded="Page_Loaded">
 
     <Grid>
         <ScrollViewer Padding="24" VerticalScrollBarVisibility="Auto">
