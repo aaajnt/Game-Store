@@ -3,14 +3,31 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\game store\\ui\\page5.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|c:\\users\\administrator\\documents\\github\\game-store\\game store\\ui\\page5.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|solutionrelative:game store\\ui\\page5.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Game Store||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\game store\\ui\\page2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|solutionrelative:game store\\ui\\page2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|c:\\users\\administrator\\documents\\github\\game-store\\game store\\ui\\page5.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\game store\\ui\\page2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|solutionrelative:game store\\ui\\page2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\game store\\ui\\page1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|solutionrelative:game store\\ui\\page1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\game store\\ui\\page3.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|solutionrelative:game store\\ui\\page3.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\game store\\ui\\page4.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|solutionrelative:game store\\ui\\page4.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\game store\\ui\\page5.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|solutionrelative:game store\\ui\\page5.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -22,48 +39,43 @@
       "RelativeMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|solutionrelative:game store\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\game store\\ui\\page2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|solutionrelative:game store\\ui\\page2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\game store\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|solutionrelative:game store\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\game store\\ui\\page1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|solutionrelative:game store\\ui\\page1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\game store\\styles\\dictionary1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|solutionrelative:game store\\styles\\dictionary1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\game store\\ui\\page1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|solutionrelative:game store\\ui\\page1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Game Store||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\game store\\ui\\page2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|solutionrelative:game store\\ui\\page2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|c:\\users\\administrator\\documents\\github\\game-store\\game store\\kind\\yourviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|solutionrelative:game store\\kind\\yourviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\game store\\ui\\page3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|solutionrelative:game store\\ui\\page3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\game store\\ui\\page3.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|solutionrelative:game store\\ui\\page3.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\game store\\ui\\page4.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|solutionrelative:game store\\ui\\page4.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\game store\\ui\\page4.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|solutionrelative:game store\\ui\\page4.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\game store\\styles\\lightthemedict.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|solutionrelative:game store\\styles\\lightthemedict.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\game store\\kind\\sharedviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|solutionrelative:game store\\kind\\sharedviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\game store\\styles\\darkthemedict.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|solutionrelative:game store\\styles\\darkthemedict.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\game store\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|solutionrelative:game store\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\game store\\ui\\page3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|solutionrelative:game store\\ui\\page3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\game store\\ui\\page1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|solutionrelative:game store\\ui\\page1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\game store\\ui\\page4.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|solutionrelative:game store\\ui\\page4.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\game store\\styles\\lightthemedict.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|solutionrelative:game store\\styles\\lightthemedict.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\game store\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -72,10 +84,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\game store\\styles\\style3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|solutionrelative:game store\\styles\\style3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\game store\\styles\\dictionary1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|solutionrelative:game store\\styles\\dictionary1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{69CA6AF9-E107-4BA4-B439-64BB5C33B440}|Game Store\\Game Store.csproj|C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\game store\\icons\\qq\u622A\u56FE20240427122904.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
@@ -147,8 +155,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
@@ -156,30 +168,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{28836128-fc2c-11d2-a433-00c04f72d18a}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Game Store",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\Game Store.csproj",
-              "RelativeDocumentMoniker": "Game Store\\Game Store.csproj",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\Game Store.csproj",
-              "RelativeToolTip": "Game Store\\Game Store.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-04-29T15:43:18.618Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Page2.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\UI\\Page2.xaml.cs",
-              "RelativeDocumentMoniker": "Game Store\\UI\\Page2.xaml.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\UI\\Page2.xaml.cs",
-              "RelativeToolTip": "Game Store\\UI\\Page2.xaml.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAywBAAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T13:58:31.9Z"
             },
             {
               "$type": "Document",
@@ -194,101 +182,117 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Page1.xaml",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\UI\\Page1.xaml",
-              "RelativeDocumentMoniker": "Game Store\\UI\\Page1.xaml",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\UI\\Page1.xaml",
-              "RelativeToolTip": "Game Store\\UI\\Page1.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-18T13:38:12.883Z"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Page5.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\UI\\Page5.xaml.cs",
-              "RelativeDocumentMoniker": "Game Store\\UI\\Page5.xaml.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\UI\\Page5.xaml.cs",
-              "RelativeToolTip": "Game Store\\UI\\Page5.xaml.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAAMkAAABfAAAA",
+              "Title": "Page2.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\UI\\Page2.xaml.cs",
+              "RelativeDocumentMoniker": "Game Store\\UI\\Page2.xaml.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\UI\\Page2.xaml.cs",
+              "RelativeToolTip": "Game Store\\UI\\Page2.xaml.cs",
+              "ViewState": "AQIAAJAAAAAAAAAAAAAAAK4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T14:05:27.914Z",
+              "WhenOpened": "2024-04-20T13:58:31.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Page4.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\UI\\Page4.xaml.cs",
+              "RelativeDocumentMoniker": "Game Store\\UI\\Page4.xaml.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\UI\\Page4.xaml.cs",
+              "RelativeToolTip": "Game Store\\UI\\Page4.xaml.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAhwBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T14:18:04.785Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "Game Store\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\MainWindow.xaml",
-              "RelativeToolTip": "Game Store\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-20T04:37:19.78Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Game Store\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\MainWindow.xaml.cs",
-              "RelativeToolTip": "Game Store\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAAADEAAAAgAAAA",
+              "Title": "Page3.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\UI\\Page3.xaml.cs",
+              "RelativeDocumentMoniker": "Game Store\\UI\\Page3.xaml.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\UI\\Page3.xaml.cs",
+              "RelativeToolTip": "Game Store\\UI\\Page3.xaml.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T13:39:35.106Z"
+              "WhenOpened": "2024-04-21T09:14:29.614Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "Page2.xaml",
               "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\UI\\Page2.xaml",
               "RelativeDocumentMoniker": "Game Store\\UI\\Page2.xaml",
               "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\UI\\Page2.xaml",
               "RelativeToolTip": "Game Store\\UI\\Page2.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-20T12:23:25.91Z"
+              "WhenOpened": "2024-04-20T12:23:25.91Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Page3.xaml",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\UI\\Page3.xaml",
-              "RelativeDocumentMoniker": "Game Store\\UI\\Page3.xaml",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\UI\\Page3.xaml",
-              "RelativeToolTip": "Game Store\\UI\\Page3.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-21T09:24:33.651Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Page3.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\UI\\Page3.xaml.cs",
-              "RelativeDocumentMoniker": "Game Store\\UI\\Page3.xaml.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\UI\\Page3.xaml.cs",
-              "RelativeToolTip": "Game Store\\UI\\Page3.xaml.cs",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAAACIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T09:14:29.614Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "Page1.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\UI\\Page1.xaml.cs",
               "RelativeDocumentMoniker": "Game Store\\UI\\Page1.xaml.cs",
               "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\UI\\Page1.xaml.cs",
               "RelativeToolTip": "Game Store\\UI\\Page1.xaml.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAxwB8AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAxwB8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T15:36:17.131Z"
+              "WhenOpened": "2024-04-25T15:36:17.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Game Store\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\MainWindow.xaml",
+              "RelativeToolTip": "Game Store\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-20T04:37:19.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Page5.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\UI\\Page5.xaml.cs",
+              "RelativeDocumentMoniker": "Game Store\\UI\\Page5.xaml.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\UI\\Page5.xaml.cs",
+              "RelativeToolTip": "Game Store\\UI\\Page5.xaml.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAAAFEBAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T14:05:27.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\App.xaml",
+              "RelativeDocumentMoniker": "Game Store\\App.xaml",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\App.xaml",
+              "RelativeToolTip": "Game Store\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-18T13:38:45.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Game Store",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\Game Store.csproj",
+              "RelativeDocumentMoniker": "Game Store\\Game Store.csproj",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\Game Store.csproj",
+              "RelativeToolTip": "Game Store\\Game Store.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-29T15:43:18.618Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -304,160 +308,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "QQ\u622A\u56FE20240427122904.png - PNG [865x395, 32 \u4F4D, PNG]",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\Icons\\QQ\u622A\u56FE20240427122904.png",
-              "RelativeDocumentMoniker": "Game Store\\Icons\\QQ\u622A\u56FE20240427122904.png",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\Icons\\QQ\u622A\u56FE20240427122904.png - PNG [865x395, 32 \u4F4D, PNG]",
-              "RelativeToolTip": "Game Store\\Icons\\QQ\u622A\u56FE20240427122904.png - PNG [865x395, 32 \u4F4D, PNG]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2024-04-27T04:59:01.872Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "readme.txt",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\packages\\ModernWpfUI.0.9.6\\readme.txt",
-              "RelativeDocumentMoniker": "packages\\ModernWpfUI.0.9.6\\readme.txt",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\packages\\ModernWpfUI.0.9.6\\readme.txt",
-              "RelativeToolTip": "packages\\ModernWpfUI.0.9.6\\readme.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-04-26T15:06:12.774Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "png-transparent-dota-steam-logo-playerunknown-s-battlegrounds-alien-swarm-steam-computer-icons-logo-steam-miscellaneous-purple-game-thumbnail.png - PNG [360x360, 8 \u4F4D, PNG]",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\Icons\\png-transparent-dota-steam-logo-playerunknown-s-battlegrounds-alien-swarm-steam-computer-icons-logo-steam-miscellaneous-purple-game-thumbnail.png",
-              "RelativeDocumentMoniker": "Game Store\\Icons\\png-transparent-dota-steam-logo-playerunknown-s-battlegrounds-alien-swarm-steam-computer-icons-logo-steam-miscellaneous-purple-game-thumbnail.png",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\Icons\\png-transparent-dota-steam-logo-playerunknown-s-battlegrounds-alien-swarm-steam-computer-icons-logo-steam-miscellaneous-purple-game-thumbnail.png - PNG [360x360, 8 \u4F4D, PNG]",
-              "RelativeToolTip": "Game Store\\Icons\\png-transparent-dota-steam-logo-playerunknown-s-battlegrounds-alien-swarm-steam-computer-icons-logo-steam-miscellaneous-purple-game-thumbnail.png - PNG [360x360, 8 \u4F4D, PNG]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2024-04-19T15:37:59.322Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "styles.xaml",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\styles\\styles.xaml",
-              "RelativeDocumentMoniker": "Game Store\\styles\\styles.xaml",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\styles\\styles.xaml",
-              "RelativeToolTip": "Game Store\\styles\\styles.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-19T15:38:06.847Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Style.xaml",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\styles\\Style.xaml",
-              "RelativeDocumentMoniker": "Game Store\\styles\\Style.xaml",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\styles\\Style.xaml",
-              "RelativeToolTip": "Game Store\\styles\\Style.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-19T11:13:06.418Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Page4.xaml",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\UI\\Page4.xaml",
-              "RelativeDocumentMoniker": "Game Store\\UI\\Page4.xaml",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\UI\\Page4.xaml",
-              "RelativeToolTip": "Game Store\\UI\\Page4.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-19T15:56:36.348Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Page4.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\UI\\Page4.xaml.cs",
-              "RelativeDocumentMoniker": "Game Store\\UI\\Page4.xaml.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\UI\\Page4.xaml.cs",
-              "RelativeToolTip": "Game Store\\UI\\Page4.xaml.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAhwBsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T14:18:04.785Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "style3.xaml",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\styles\\style3.xaml",
-              "RelativeDocumentMoniker": "Game Store\\styles\\style3.xaml",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\styles\\style3.xaml",
-              "RelativeToolTip": "Game Store\\styles\\style3.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-27T10:17:13.944Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "packages.config",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\packages.config",
-              "RelativeDocumentMoniker": "Game Store\\packages.config",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\packages.config",
-              "RelativeToolTip": "Game Store\\packages.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-04-19T15:50:47.341Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "RuntimeType.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\.vsdbgsrc\\0c127a365c8211b835a6e272639aca6b30d12698fabcaeb2687b791ca6edcba1\\RuntimeType.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\0c127a365c8211b835a6e272639aca6b30d12698fabcaeb2687b791ca6edcba1\\RuntimeType.cs",
-              "ToolTip": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\.vsdbgsrc\\0c127a365c8211b835a6e272639aca6b30d12698fabcaeb2687b791ca6edcba1\\RuntimeType.cs [\u53EA\u8BFB]",
-              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\0c127a365c8211b835a6e272639aca6b30d12698fabcaeb2687b791ca6edcba1\\RuntimeType.cs [\u53EA\u8BFB]",
-              "ViewState": "AQIAABYQAAAAAAAAAAASwCUQAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T14:44:02.302Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "LightThemeDict.xaml",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\styles\\LightThemeDict.xaml",
-              "RelativeDocumentMoniker": "Game Store\\styles\\LightThemeDict.xaml",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\styles\\LightThemeDict.xaml",
-              "RelativeToolTip": "Game Store\\styles\\LightThemeDict.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-27T13:35:24.585Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 15,
+              "Title": "Page3.xaml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\UI\\Page3.xaml",
+              "RelativeDocumentMoniker": "Game Store\\UI\\Page3.xaml",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\UI\\Page3.xaml",
+              "RelativeToolTip": "Game Store\\UI\\Page3.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-21T09:24:33.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Page1.xaml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\UI\\Page1.xaml",
+              "RelativeDocumentMoniker": "Game Store\\UI\\Page1.xaml",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\UI\\Page1.xaml",
+              "RelativeToolTip": "Game Store\\UI\\Page1.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-18T13:38:12.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\App.xaml.cs",
               "RelativeDocumentMoniker": "Game Store\\App.xaml.cs",
               "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\App.xaml.cs",
               "RelativeToolTip": "Game Store\\App.xaml.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAIAywBcAAAArAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T12:00:25.546Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\App.xaml",
-              "RelativeDocumentMoniker": "Game Store\\App.xaml",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\App.xaml",
-              "RelativeToolTip": "Game Store\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-18T13:38:45.239Z",
+              "WhenOpened": "2024-04-21T12:00:25.546Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Game Store\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Game Store\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAAAHIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T13:39:35.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Dictionary1.xaml",
               "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\styles\\Dictionary1.xaml",
               "RelativeDocumentMoniker": "Game Store\\styles\\Dictionary1.xaml",
@@ -469,91 +370,248 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "YourViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\kind\\YourViewModel.cs",
+              "RelativeDocumentMoniker": "Game Store\\kind\\YourViewModel.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\kind\\YourViewModel.cs",
+              "RelativeToolTip": "Game Store\\kind\\YourViewModel.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABUAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T12:01:34.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SharedViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\kind\\SharedViewModel.cs",
+              "RelativeDocumentMoniker": "Game Store\\kind\\SharedViewModel.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\kind\\SharedViewModel.cs",
+              "RelativeToolTip": "Game Store\\kind\\SharedViewModel.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T02:31:27.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 20,
+              "Title": "style3.xaml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\styles\\style3.xaml",
+              "RelativeDocumentMoniker": "Game Store\\styles\\style3.xaml",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\styles\\style3.xaml",
+              "RelativeToolTip": "Game Store\\styles\\style3.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-27T10:17:13.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\packages.config",
+              "RelativeDocumentMoniker": "Game Store\\packages.config",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\packages.config",
+              "RelativeToolTip": "Game Store\\packages.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-04-19T15:50:47.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "RuntimeType.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\.vsdbgsrc\\0c127a365c8211b835a6e272639aca6b30d12698fabcaeb2687b791ca6edcba1\\RuntimeType.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\0c127a365c8211b835a6e272639aca6b30d12698fabcaeb2687b791ca6edcba1\\RuntimeType.cs",
+              "ToolTip": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\.vsdbgsrc\\0c127a365c8211b835a6e272639aca6b30d12698fabcaeb2687b791ca6edcba1\\RuntimeType.cs [\u53EA\u8BFB]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\0c127a365c8211b835a6e272639aca6b30d12698fabcaeb2687b791ca6edcba1\\RuntimeType.cs [\u53EA\u8BFB]",
+              "ViewState": "AQIAABYQAAAAAAAAAAASwCUQAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T14:44:02.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LightThemeDict.xaml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\styles\\LightThemeDict.xaml",
+              "RelativeDocumentMoniker": "Game Store\\styles\\LightThemeDict.xaml",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\styles\\LightThemeDict.xaml",
+              "RelativeToolTip": "Game Store\\styles\\LightThemeDict.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-27T13:35:24.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "QQ\u622A\u56FE20240427122904.png - PNG [865x395, 32 \u4F4D, PNG]",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\Icons\\QQ\u622A\u56FE20240427122904.png",
+              "RelativeDocumentMoniker": "Game Store\\Icons\\QQ\u622A\u56FE20240427122904.png",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\Icons\\QQ\u622A\u56FE20240427122904.png - PNG [865x395, 32 \u4F4D, PNG]",
+              "RelativeToolTip": "Game Store\\Icons\\QQ\u622A\u56FE20240427122904.png - PNG [865x395, 32 \u4F4D, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-04-27T04:59:01.872Z",
+              "EditorCaption": " - PNG [865x395, 32 \u4F4D, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "readme.txt",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\packages\\ModernWpfUI.0.9.6\\readme.txt",
+              "RelativeDocumentMoniker": "packages\\ModernWpfUI.0.9.6\\readme.txt",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\packages\\ModernWpfUI.0.9.6\\readme.txt",
+              "RelativeToolTip": "packages\\ModernWpfUI.0.9.6\\readme.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-04-26T15:06:12.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "png-transparent-dota-steam-logo-playerunknown-s-battlegrounds-alien-swarm-steam-computer-icons-logo-steam-miscellaneous-purple-game-thumbnail.png - PNG [360x360, 8 \u4F4D, PNG]",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\Icons\\png-transparent-dota-steam-logo-playerunknown-s-battlegrounds-alien-swarm-steam-computer-icons-logo-steam-miscellaneous-purple-game-thumbnail.png",
+              "RelativeDocumentMoniker": "Game Store\\Icons\\png-transparent-dota-steam-logo-playerunknown-s-battlegrounds-alien-swarm-steam-computer-icons-logo-steam-miscellaneous-purple-game-thumbnail.png",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\Icons\\png-transparent-dota-steam-logo-playerunknown-s-battlegrounds-alien-swarm-steam-computer-icons-logo-steam-miscellaneous-purple-game-thumbnail.png - PNG [360x360, 8 \u4F4D, PNG]",
+              "RelativeToolTip": "Game Store\\Icons\\png-transparent-dota-steam-logo-playerunknown-s-battlegrounds-alien-swarm-steam-computer-icons-logo-steam-miscellaneous-purple-game-thumbnail.png - PNG [360x360, 8 \u4F4D, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-04-19T15:37:59.322Z",
+              "EditorCaption": " - PNG [360x360, 8 \u4F4D, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "styles.xaml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\styles\\styles.xaml",
+              "RelativeDocumentMoniker": "Game Store\\styles\\styles.xaml",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\styles\\styles.xaml",
+              "RelativeToolTip": "Game Store\\styles\\styles.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-19T15:38:06.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Style.xaml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\styles\\Style.xaml",
+              "RelativeDocumentMoniker": "Game Store\\styles\\Style.xaml",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\styles\\Style.xaml",
+              "RelativeToolTip": "Game Store\\styles\\Style.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-19T11:13:06.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Page4.xaml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\UI\\Page4.xaml",
+              "RelativeDocumentMoniker": "Game Store\\UI\\Page4.xaml",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\UI\\Page4.xaml",
+              "RelativeToolTip": "Game Store\\UI\\Page4.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-19T15:56:36.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "QQ\u622A\u56FE20240427122301.png - PNG [865x487, 32 \u4F4D, PNG]",
               "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\Icons\\QQ\u622A\u56FE20240427122301.png",
               "RelativeDocumentMoniker": "Game Store\\Icons\\QQ\u622A\u56FE20240427122301.png",
               "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\Icons\\QQ\u622A\u56FE20240427122301.png - PNG [865x487, 32 \u4F4D, PNG]",
               "RelativeToolTip": "Game Store\\Icons\\QQ\u622A\u56FE20240427122301.png - PNG [865x487, 32 \u4F4D, PNG]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2024-04-27T04:59:00.956Z"
+              "WhenOpened": "2024-04-27T04:59:00.956Z",
+              "EditorCaption": " - PNG [865x487, 32 \u4F4D, PNG]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "sltcpqq0exc3gu.png - PNG [192x192, 32 \u4F4D, PNG]",
               "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\Icons\\sltcpqq0exc3gu.png",
               "RelativeDocumentMoniker": "Game Store\\Icons\\sltcpqq0exc3gu.png",
               "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\Icons\\sltcpqq0exc3gu.png - PNG [192x192, 32 \u4F4D, PNG]",
               "RelativeToolTip": "Game Store\\Icons\\sltcpqq0exc3gu.png - PNG [192x192, 32 \u4F4D, PNG]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2024-04-20T12:52:20.044Z"
+              "WhenOpened": "2024-04-20T12:52:20.044Z",
+              "EditorCaption": " - PNG [192x192, 32 \u4F4D, PNG]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "0840098431516e56f60368a77bbd8555_512_512.jpg - Bitmap [380x380, 24 \u4F4D, JPG]",
               "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\Icons\\0840098431516e56f60368a77bbd8555_512_512.jpg",
               "RelativeDocumentMoniker": "Game Store\\Icons\\0840098431516e56f60368a77bbd8555_512_512.jpg",
               "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\Icons\\0840098431516e56f60368a77bbd8555_512_512.jpg - Bitmap [380x380, 24 \u4F4D, JPG]",
               "RelativeToolTip": "Game Store\\Icons\\0840098431516e56f60368a77bbd8555_512_512.jpg - Bitmap [380x380, 24 \u4F4D, JPG]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2024-04-20T12:52:15.9Z"
+              "WhenOpened": "2024-04-20T12:52:15.9Z",
+              "EditorCaption": " - Bitmap [380x380, 24 \u4F4D, JPG]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "c6b40ebf238445eda4980f02d9f7ba43.png~tplv-0es2k971ck-image.png - PNG [780x784, 32 \u4F4D, PNG]",
               "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\Icons\\c6b40ebf238445eda4980f02d9f7ba43.png~tplv-0es2k971ck-image.png",
               "RelativeDocumentMoniker": "Game Store\\Icons\\c6b40ebf238445eda4980f02d9f7ba43.png~tplv-0es2k971ck-image.png",
               "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\Icons\\c6b40ebf238445eda4980f02d9f7ba43.png~tplv-0es2k971ck-image.png - PNG [780x784, 32 \u4F4D, PNG]",
               "RelativeToolTip": "Game Store\\Icons\\c6b40ebf238445eda4980f02d9f7ba43.png~tplv-0es2k971ck-image.png - PNG [780x784, 32 \u4F4D, PNG]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2024-04-19T12:34:24.189Z"
+              "WhenOpened": "2024-04-19T12:34:24.189Z",
+              "EditorCaption": " - PNG [780x784, 32 \u4F4D, PNG]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "GCfdbdGW2K.jpg - Bitmap [512x512, 24 \u4F4D, JPG]",
               "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\Icons\\GCfdbdGW2K.jpg",
               "RelativeDocumentMoniker": "Game Store\\Icons\\GCfdbdGW2K.jpg",
               "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\Icons\\GCfdbdGW2K.jpg - Bitmap [512x512, 24 \u4F4D, JPG]",
               "RelativeToolTip": "Game Store\\Icons\\GCfdbdGW2K.jpg - Bitmap [512x512, 24 \u4F4D, JPG]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2024-04-20T12:42:21.478Z"
+              "WhenOpened": "2024-04-20T12:42:21.478Z",
+              "EditorCaption": " - Bitmap [512x512, 24 \u4F4D, JPG]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "\u5C4F\u5E55\u622A\u56FE 2024-04-19 203813.png - PNG [165x48, 32 \u4F4D, PNG]",
               "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\Icons\\\u5C4F\u5E55\u622A\u56FE 2024-04-19 203813.png",
               "RelativeDocumentMoniker": "Game Store\\Icons\\\u5C4F\u5E55\u622A\u56FE 2024-04-19 203813.png",
               "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\Icons\\\u5C4F\u5E55\u622A\u56FE 2024-04-19 203813.png - PNG [165x48, 32 \u4F4D, PNG]",
               "RelativeToolTip": "Game Store\\Icons\\\u5C4F\u5E55\u622A\u56FE 2024-04-19 203813.png - PNG [165x48, 32 \u4F4D, PNG]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2024-04-19T15:17:17.491Z"
+              "WhenOpened": "2024-04-19T15:17:17.491Z",
+              "EditorCaption": " - PNG [165x48, 32 \u4F4D, PNG]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "OIP.jpg - Bitmap [202x235, 24 \u4F4D, JPG]",
               "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\Icons\\OIP.jpg",
               "RelativeDocumentMoniker": "Game Store\\Icons\\OIP.jpg",
               "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\Icons\\OIP.jpg - Bitmap [202x235, 24 \u4F4D, JPG]",
               "RelativeToolTip": "Game Store\\Icons\\OIP.jpg - Bitmap [202x235, 24 \u4F4D, JPG]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2024-04-19T15:38:04.671Z"
+              "WhenOpened": "2024-04-19T15:38:04.671Z",
+              "EditorCaption": " - Bitmap [202x235, 24 \u4F4D, JPG]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "\u5C4F\u5E55\u622A\u56FE 2024-04-19 225610.png - PNG [84x77, 32 \u4F4D, PNG]",
               "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\Icons\\\u5C4F\u5E55\u622A\u56FE 2024-04-19 225610.png",
               "RelativeDocumentMoniker": "Game Store\\Icons\\\u5C4F\u5E55\u622A\u56FE 2024-04-19 225610.png",
               "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Game-Store\\Game Store\\Icons\\\u5C4F\u5E55\u622A\u56FE 2024-04-19 225610.png - PNG [84x77, 32 \u4F4D, PNG]",
               "RelativeToolTip": "Game Store\\Icons\\\u5C4F\u5E55\u622A\u56FE 2024-04-19 225610.png - PNG [84x77, 32 \u4F4D, PNG]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2024-04-19T15:38:01.613Z"
+              "WhenOpened": "2024-04-19T15:38:01.613Z",
+              "EditorCaption": " - PNG [84x77, 32 \u4F4D, PNG]"
             }
           ]
         }

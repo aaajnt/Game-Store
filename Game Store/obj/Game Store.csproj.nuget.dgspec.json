@@ -43,6 +43,18 @@
       "frameworks": {
         "net48": {
           "dependencies": {
+            "Costura.Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.7.0, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.8.0, )"
+            },
             "Microsoft.VCRTForwarders.140": {
               "target": "Package",
               "version": "[1.0.6, )"

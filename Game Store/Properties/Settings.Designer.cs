@@ -30,5 +30,9 @@ namespace Game_Store.Properties
         public bool? IsCheckBoxChecked { get; internal set; }
         public string ComboBoxSelection { get; internal set; }
         public string LastComboBoxSelection { get; internal set; }
+        public string ComboBoxSelectedOption { get; internal set; }
+        public string LastSelectedComboBoxItem { get; internal set; }
+        public string ThemeSelection { get; internal set; }
+        public string DefaultComboBoxItem { get; internal set; }
     }
 }

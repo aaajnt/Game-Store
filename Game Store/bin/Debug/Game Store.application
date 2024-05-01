@@ -7,14 +7,14 @@
     <framework targetVersion="4.8" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Game Store.exe.manifest" size="109158">
+    <dependentAssembly dependencyType="install" codebase="Game Store.exe.manifest" size="94729">
       <assemblyIdentity name="Game Store.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>rEGPxZcbGWQNL+gLnWMtyr71AQpwwgvublwAtlrqGYo=</dsig:DigestValue>
+        <dsig:DigestValue>MgZR8S7V89HYv2a+88KlxxrdPiNVeGBHniDgTsXWnD0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

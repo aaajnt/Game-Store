@@ -27,7 +27,6 @@
                 </ListView.ContextMenu>
             </ListView>
         </Border>
-        <modern:AutoSuggestBox x:Name="gamesListView" PlaceholderText="搜索" QueryIcon="Find" Cursor="" Height="40" Width="620" />
 
     </StackPanel>
 </Page>

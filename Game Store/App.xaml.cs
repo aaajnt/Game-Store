@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Game_Store.kind;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
@@ -14,11 +15,18 @@ namespace Game_Store
     /// </summary>
     public partial class App : Application
     {
+        public SharedViewModel SharedViewModel { get; } = new SharedViewModel();
         public static event EventHandler<BackgroundChangedEventArgs> BackgroundChanged;
 
         public static void RaiseBackgroundChanged(Color? color, string imagePath)
         {
             BackgroundChanged?.Invoke(null, new BackgroundChangedEventArgs(color, imagePath));
+        }
+        public static SharedViewModel SharedVM { get; set; }
+
+        public App()
+        {
+            SharedVM = new SharedViewModel();
         }
     }
     public class BackgroundChangedEventArgs : EventArgs
@@ -32,5 +40,6 @@ namespace Game_Store
             ImagePath = imagePath;
         }
     }
+
 
 }
